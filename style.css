@@ -1,0 +1,272 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'afacad', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: indigo;
+}
+
+/*Navegacion*/
+
+header {
+    display:flex;
+    background-color: indigo;
+    align-items: center;
+    height:60px;
+}
+
+.logo {
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    padding:50px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.logo, .menu-lista{
+    color: white;
+}
+
+.menu-lista{
+    display:flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    gap:30px;
+    font-size: 15px;
+    cursor:pointer;
+    list-style: none;
+    padding-right:50px;
+}
+
+/*shadow en lista*/
+
+.nav-btn{
+    padding:10px 15px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #487aff;
+    color:white;
+    border-style:none;
+    cursor:pointer;
+}
+
+.nav-btn:hover{
+    box-shadow: 5px 5px 5px white;
+    
+}
+
+/*Ver border de active*/
+.nav-btn:active{
+    background-color: white;
+    color:#ff6935;
+    border-style: 2px solid #ff6935;
+}
+
+/*Banner*/
+.banner {
+    display:flex;
+    align-items: center;
+    padding-top:50px;
+    padding-left:150px;
+    padding-right:150px;
+    gap:100px;
+}
+
+h1 {
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+span {
+    color:#487aff;
+    font-size:40px;
+}
+
+
+
+.text-banner{
+    margin-right: auto;
+    line-height: 30px;
+}
+
+.img-banner{
+    width:400px;
+    height:500px;
+    margin-left:auto;
+    border-radius: 225px 5px 225px 80px;
+    box-shadow: 10px 10px 10px #487aff;
+}
+
+.banner-bottom {
+    display:flex;
+}
+
+.find, .skills {
+    margin: 100px 70px 100px 0px ;
+}
+
+.bi-facebook, .bi-instagram, .bi-linkedin, .bi-filetype-html, .bi-filetype-css {
+    padding:50px 10px 10px 0px;
+}
+
+/*Features*/
+.contenedor {
+    width:90%;
+    margin:20px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p-features, .do {
+    margin-left: 135px;
+}
+
+.do {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.card{
+    width:20%;
+    background-color: #487aff;
+    border-radius: 10px;
+    margin:20px;
+    padding:30px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px white;
+}
+
+/*centrar iconos*/
+i{
+    padding-bottom: 30px;
+}
+
+/*my portfolio*/
+
+.p-portfolio, .my-portfolio {
+    margin-left: 135px;
+}
+
+.my.portfolio {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.contenedor2 {
+    width:90%;
+    margin:20px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex;
+}
+
+.img2, .img3, .img4, .img5, .img6, .img7 {
+    width:260px;
+    height:150px;
+}
+
+.number {
+    display:flex;
+    margin-left:auto;
+    justify-content: space-around;
+}
+
+/*Resume*/
+
+.resume-exp, .resume {
+    margin-left: 700px;
+    align-items: center;
+}
+
+.resume {
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.resume-btn {
+    background-color: indigo;
+    font-size: 20px;
+    margin-top: 25px;
+    display: flex;
+text-align:center;
+margin-left: 500px;
+}
+
+.resume-btn:hover{
+    color:#487aff;
+    cursor:pointer;
+}
+
+.education{
+    color:#487aff;
+}
+
+.contenedor-exp {
+    display:flex;
+    margin-left:50%;
+    justify-content: center;
+}
+.year{
+    color:#487aff;
+}
+
+.p-resume{
+    text-align: center;
+    padding:20px;
+}
+
+.card3-title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.card3-place {
+    color: indigo;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.contenedor3 {
+    width:90%;
+    margin:20px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card3{
+    width:20%;
+    background-color: #487aff;
+    border-radius: 10px;
+    margin:20px;
+    padding:30px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px white;
+}
+
+
+
+.client-name {
+    width: 230px;
+    height:250px;
+    background-color: #487aff;
+    border-radius: 10px;
+    margin-left: 450px;
+}
+
+.client-comment{
+    display:flex;
+    width:400px;
+    height:350px;
+    background-color: #487aff;
+    border-radius: 10px;
+    margin-right: 350px;
+    flex-direction: column;
+}
+
