@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--Link al CSS-->
+    <link rel="stylesheet" href="style.css" />
+<!--Link a iconos-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+<!--Link a font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=DM+Sans:opsz,wght@9..40,200&family=Lilita+One&family=Nerko+One&family=Nunito+Sans:opsz,wght@6..12,300&family=Playpen+Sans:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+<!--Header-->
+    <header class="header">
+      <div class="logo">AH</div>
+      <div class="bars">
+<!--Utilizar estas lineas para el responsive en tamaño mas pequeño como menu hamburguesa-->
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+<!--Menu de Navegacion-->
+      <nav class="navegacion">
+            <ul class="menu-lista">
+              <li><a href="#" class="active">HOME</a></li>
+              <li><a href="#" class="active">FEATURES</a></li>
+              <li><a href="#" class="active">PORTFOLIO</a></li>
+              <li><a href="#" class="active">RESUME</a></li>
+              <li><a href="#" class="active">CLIENTS</a></li>
+              <li><a href="#" class="active">PRICING</a></li>
+              <li><a href="#" class="active">BLOG</a></li>
+              <li><a href="#" class="active">CONTACT</a></li>
+              <li><button class="nav-btn" href="#">BUY NOW</button></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+<!--Banner-->
+    <main class="banner">
+      <div class="text-banner">
+        <p class="p-me"><strong>WELCOME TO MY PORTFOLIO!</strong></p>
+        <h1>I'm Agustina Hnatiuk, <span>Full-Stack Developer</span> student</h1>
+        <p>I love to dive into the world of technology, exploring new programming languages and solving complex problems with elegant solutions. My favorite coding buddy is my trusty laptop, and I'm always excited to embark on new coding adventures. I not only excel in writing efficient and clean code but also enjoy collaborating with others to build innovative and impactful projects. Whether it's web development, app creation, or diving into artificial intelligence, I am always up for the challenge!</p>
+        <div class="banner-bottom">
+          <div class="find">
+            <p class="find-skills">FIND ME ON</p>
+            <i class="fa-brands fa-facebook" class="icon"></i>
+            <i class="fa-brands fa-instagram" class="icon"></i>
+            <i class="fa-brands fa-linkedin-in" class="icon"></i>
+          </div>
+          <div class="skills">
+            <p class="find-skills">BEST SKILLS ON</p>
+            <i class="fa-brands fa-html5" class="icon"></i>
+            <i class="fa-brands fa-css3-alt" class="icon"></i>
+            <i class="fa-brands fa-figma" class="icon"></i>
+          </div>
+        </div>
+      </div>
+        <img src="Images/image1.jpg" class="img-banner" id="imagen" alt="developer"/>
+    </main>
+
+    <div class="linea1"></div>
+
+<!--Features-->
+    <section>
+      <p class="p-features">FEATURES</p>
+      <h2 class="do">What I do</h2>
+      <div class="contenedor">
+        <div class="card">
+          <i class="fa-solid fa-bars" class="icon-2"></i>
+          <p class="features-card">Business Strategy</p>
+          <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-book-open" class="icon-2"></i>
+          <p class="features-card">App Development</p>
+          <p class="features-p">Stay agile, be open to feedback, and continuously iterate to improve your app based on user experiences</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-tv"></i>
+          <p class="features-card">App Development</p>
+          <p class="features-p">App development is an iterative process, and user feedback is invaluable. </p>
+        </div>
+      </div>
+      
+      <div class="contenedor">
+        <div class="card">
+          <i class="fa-regular fa-comment" class="icon-2"></i>
+          <p class="features-card">Mobile App</p>
+          <p class="features-p">Stay agile, adapt to feedback, and keep refining your strategies based on the evolving needs of your audience. </p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-wifi" class="icon-2"></i>
+          <p class="features-card">CEO Marketing</p>
+          <p class="features-p">A well-designed app not only looks good but also enhances the overall user experience.</p>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-slack" class="icon-2"></i>
+          <p class="features-card">Personal Portfolio</p>
+          <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
+        </div>
+      </div>
+
+      <div class="linea1"></div>
+
+<!--Portfolio-->
+    </section>
+    <section class="portfolio">
+      <p class="p-portfolio">VISIT MY PORTFOLIO AND GIVE ME YOUR FEEDBACK</p>
+      <h2 class="my-portfolio">My portfolio</h2>
+      <div class="contenedor2">
+        <div class="card">
+          <img src="Images/imagen3.jpg" class="img3" alt="css">
+          <!--Foto de <a href="https://unsplash.com/es/@kobuagency?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">KOBU Agency</a> en <a href="https://unsplash.com/es/fotos/smartphone-blanco-en-dos-libros-de-tapa-blanda-ipARHaxETRk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">LANDING PAGE</p>
+          <p class="number">780</p>
+        </div>
+          <p>Designed to make a memorable first impression.</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          
+          <button class="btn-sabermas" id="mas" >Saber más</button>
+        </div>
+        
+        <div class="card">
+          <img src="Images/imagen4.jpg" class="img4" alt="app">
+          <!--Foto de <a href="https://unsplash.com/es/@writecodenow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boitumelo</a> en <a href="https://unsplash.com/es/fotos/monitor-de-computadora-de-pantalla-plana-negro-encendido-junto-al-teclado-de-computadora-negro-0DJHJcpwN9Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">APPLICATION</p>
+          <p class="number">450</p>
+        </div>
+          <p>A seamless digital experience.</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          <button class="btn-sabermas" id="mas">Saber más</button>
+        </div>
+        
+        <div class="card">
+          <img src="Images/imagen2.jpg" class="img2" alt="figma">
+          <!--Foto de <a href="https://unsplash.com/es/@mariogogh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mario Gogh</a> en <a href="https://unsplash.com/es/fotos/iphone-6-plateado-en-macbook-pro-UF5Kdm764RE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">FIGMA</p>
+          <p class="number">600</p>
+        </div>
+          <p>Creativity meets efficiency.</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          <button class="btn-sabermas" id="mas">Saber más</button>
+        </div>
+      </div>
+      
+      <div class="contenedor2">
+        <div class="card">
+          <img src="Images/imagen5.jpg" class="img5" alt="design">
+          <!--Foto de <a href="https://unsplash.com/es/@campaign_creators?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Campaign Creators</a> en <a href="https://unsplash.com/es/fotos/hombre-usando-una-computadora-apple-iEiUITs149M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">WEB DESIGN</p>
+          <p class="number">560</p>
+        </div>
+          <p>Navigate with effortless grace.</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          <button class="btn-sabermas" id="mas">Saber más</button>
+        </div>
+        <div class="card">
+          <img src="Images/imagen6.jpg" class="img6" alt="develop">
+          <!--Foto de <a href="https://unsplash.com/es/@johnschno?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Schnobrich</a> en <a href="https://unsplash.com/es/fotos/tres-personas-apuntando-a-la-computadora-portatil-plateada-2FPjlAyMQTA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">DEVELOPMENT</p>
+          <p class="number">340</p>
+        </div>
+          <p>Transform ideas into interactive experiences.</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          <button class="btn-sabermas" id="mas">Saber más</button>
+        </div>
+        <div class="card">
+          <img src="Images/imagen7.jpg" class="img7" alt="collaborate">
+          <!--Foto de <a href="https://unsplash.com/es/@uxindo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">UX Indonesia</a> en <a href="https://unsplash.com/es/fotos/persona-que-escribe-en-papel-blanco-qC2n6RQU4Vw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description" id="boxportfolio">
+          <p class="portfolio-items">FIGMA</p>
+          <p class="number">270</p>
+        </div>
+          
+          <p>Collaborate in real-time</p>
+          <span id="additional" class="notshowed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
+            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+          </span>
+          <button class="btn-sabermas" id="mas">Saber más</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="linea1"></div>
+
+<!--Resume-->
+<section>
+      <div class="resume-p-h2">
+        <p class="resume-exp">1 YEAR OF EXPERIENCE</p>
+        <h2 class="resume">My Resume</h2>
+      </div>
+      <div class="resume-btn">
+        <p class="p-resume">Education</p>
+        <p class="p-resume">Personal Skills</p>
+        <p class="p-resume">Experience</p>
+        <p class="p-resume">Interview</p>
+      </div>
+
+<!--subtitulos de la seccion resume-->
+<div class="exp-div">
+  <div class="contenedor-exp">
+    <div class="experience">
+      <p class="year">2022</p>
+      <h7>Education Quality</h7>
+    </div>
+    <div class="experience2">
+      <p class="year">2022</p>
+      <h7>Job Experience</h7>
+    </div>
+  </div>
+</div>
+
+<!--Contenedores de la seccion resume-->
+    <div class="contenedor3">
+          <div class="card3">
+            <p class="card3-title">Personal Portfolio</p>
+            <div class="card3-padre-place">
+              <p class="card3-place">UTN University</p>
+              <div class="puntaje">
+                <p class="puntaje-number">4.70/5</p>
+              </div>
+            </div>
+            <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+          
+          <div class="card3">
+              <p class="card3-title">Personal Portfolio</p>
+              <div class="card3-padre-place">
+                <p class="card3-place">UTN University</p>
+                <div class="puntaje">
+                  <p class="puntaje-number">4.70/5</p>
+                </div>
+              </div>
+              <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+        </div>
+
+        <div class="contenedor3">
+          <div class="card3">
+              <p class="card3-title">Personal Portfolio</p>
+              <div class="card3-padre-place">
+                <p class="card3-place">UTN University</p>
+                <div class="puntaje">
+                  <p class="puntaje-number">4.70/5</p>
+                </div>
+              </div>
+              <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+
+          <div class="card3">
+            <p class="card3-title">Personal Portfolio</p>
+            <div class="card3-padre-place">
+              <p class="card3-place">UTN University</p>
+              <div class="puntaje">
+                <p class="puntaje-number">4.70/5</p>
+              </div>
+            </div>
+            <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+        </div>
+
+        <div class="contenedor3">
+          <div class="card3">
+            <p class="card3-title">Personal Portfolio</p>
+            <div class="card3-padre-place">
+              <p class="card3-place">UTN University</p>
+              <div class="puntaje">
+                <p class="puntaje-number">4.70/5</p>
+              </div>
+            </div>
+            <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+
+          <div class="card3">
+            <p class="card3-title">Personal Portfolio</p>
+            <div class="card3-padre-place">
+            <p class="card3-place">UTN University</p>
+            <div class="puntaje">
+              <p class="puntaje-number">4.70/5</p>
+            </div>
+            </div>
+            <div class="linea"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, placeat! Officia ipsam impedit ducimus odio consequuntur quo asperiores adipisci repudiandae harum sequi? Accusantium nobis veniam quis accusamus dolore excepturi quam?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--My blog-->    
+    <section>
+      <p class="p-features">VISIT MY BLOG AND KEEP YOUR FEEDBACK</p>
+      <h2 class="do">My blog</h2>
+      <div class="contenedor2">
+        <div class="card">
+          <img src="Images/imagen3.jpg" class="img3" alt="css">
+          <!--Foto de <a href="https://unsplash.com/es/@kobuagency?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">KOBU Agency</a> en <a href="https://unsplash.com/es/fotos/smartphone-blanco-en-dos-libros-de-tapa-blanda-ipARHaxETRk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description">
+          <p class="portfolio-items">DEVELOPMENT</p>
+          <p class="number">4 minutes read</p>
+        </div>
+          <p>Designed to make a memorable first impression.</p>
+        </div>
+        <div class="card">
+          <img src="Images/imagen4.jpg" class="img4" alt="app">
+          <!--Foto de <a href="https://unsplash.com/es/@writecodenow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boitumelo</a> en <a href="https://unsplash.com/es/fotos/monitor-de-computadora-de-pantalla-plana-negro-encendido-junto-al-teclado-de-computadora-negro-0DJHJcpwN9Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description">
+          <p class="portfolio-items">APPLICATION</p>
+          <p class="number">2 minutes read</p>
+        </div>
+          <p>A seamless digital experience.</p>
+        </div>
+        <div class="card">
+          <img src="Images/imagen2.jpg" class="img2" alt="figma">
+          <!--Foto de <a href="https://unsplash.com/es/@mariogogh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mario Gogh</a> en <a href="https://unsplash.com/es/fotos/iphone-6-plateado-en-macbook-pro-UF5Kdm764RE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  -->
+        <div class="portfolio-description">
+          <p class="portfolio-items">ARGENTINA</p>
+          <p class="number">2 minutes read</p>
+        </div>
+          <p>Creativity meets efficiency.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="linea1"></div>
+
+<!--Contact-->
+    <section>
+      <p class="p-features">CONTACT</p>
+      <h2 class="do">Contact me</h2>
+      <div class="contact-padre">
+        <div class="contact-name">
+          <div class="img-contact1">
+            <img src="Images/imagen4.jpg" alt="#" class="img-contact">
+          </div>
+          
+          <h5 class="name-contact">Nevine Acotanza</h5>
+          <p class="p-contact-me">Chief Operating Officer</p>
+          <p class="p-contact-2">I am available for freelance work. Connect with me via call into my account.</p>
+          <p class="p-contact-3">Phone: +123456789</p>
+          <p class="p-contact-3">Email: admin@example.com</p>
+          <p class="find-me">FIND ME</p>
+          <div class="icon-contact">
+            <i class="fa-brands fa-facebook" class="icon"></i>
+            <i class="fa-brands fa-instagram" class="icon"></i>
+            <i class="fa-brands fa-linkedin-in" class="icon"></i>
+          </div>
+        </div>
+
+    <!--Contacto input-->
+        <div class="contact-input">
+          <form class="contact-input2">
+            <div class="name-phone">
+              <label class="fname-1">YOUR NAME:</label>
+              <label class="lname">PHONE NUMBER:</label><br>
+            </div>
+            <div class="name-phone-input">
+              <input class="text" id="fname" name="fname"><br>
+              <input class="text" id="lname" name="lname">
+            </div>
+            <label class="fname">EMAIL:</label><br>
+            <input class="text" id="fname" name="fname"><br>
+            <label class="fname">SUBJECT:</label><br>
+            <input class="text" id="fname" name="fname"><br>
+            <label class="fname">YOUR MESSAGE:</label><br>
+            <input class="text1" id="fname" name="fname"><br>
+            <button class="contact-btn" id="sendMessage">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+<!--footer-->
+
+<div class="linea2"></div>
+
+    <section>
+      <div class="contenedor-imagen">
+        <img class="imagen-footer" src="images/imagen9.jpg" alt="Descripción de la imagen">
+      </div>
+        <p class="inbio">INBIO</p>
+        <p class="inbio-name">Agustina Hnatiuk</p>
+    </section>
+  
+<!--Link a js-->
+    <script src="script.js"></script>
+  </body>
+</html>
