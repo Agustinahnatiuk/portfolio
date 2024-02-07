@@ -42,17 +42,33 @@ function cerrarTexto() {
   closeButton.addEventListener('click', cerrarTexto);
 
 //Mensaje de éxito en formulario
-//No funciona, me envía al principio de la página al hacer click!!!!!
-document.getElementById("sendMessage").addEventListener("click", function() {
-    var successContainer = document.getElementById('successContainer');
-  
-    // Mostrar el mensaje de éxito
-    successContainer.classList.add("mostrar");
-  
-    // Ocultar el mensaje después de un tiempo 
-    setTimeout(function() {
-      successContainer.classList.remove("mostrar");
-    }, 3000);
-  });
-  
-  
+
+function mostrarMensaje() {
+    
+    let mensajeElemento = document.getElementById("mensaje");
+
+    mensajeElemento.textContent = "¡Su mensaje fue enviado con éxito!";
+}
+
+//slider
+let slider = document.querySelector('.slider');
+let sliderDiv = document.querySelectorAll('.slider .card1');
+
+let index = 0;
+
+function divSlider(direction) {
+    index += direction;
+
+    if (index < 0) {
+        index = sliderDiv.length - 1;
+    } else if (index >= sliderDiv.length) {
+        index = 0;
+    }
+
+    let movimiento = -index * 240;
+    slider.style.transform = `translateX(${movimiento}px)`;
+};
+
+divSlider(0);
+
+

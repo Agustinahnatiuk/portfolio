@@ -75,43 +75,44 @@
     <section>
       <p class="p-features">FEATURES</p>
       <h2 class="do">What I do</h2>
-      <div class="contenedor">
-        <div class="card">
-          <i class="fa-solid fa-bars" class="icon-2"></i>
-          <p class="features-card">Business Strategy</p>
-          <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
+      <div class="contenedor-slider">
+        <div class="anterior" id="anterior" onclick="divSlider('-1')"><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="slider">
+          <div class="card1">
+            <i class="fa-solid fa-bars" class="icon-2"></i>
+            <p class="features-card">Business Strategy</p>
+            <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
+          </div>
+          <div class="card1">
+            <i class="fa-solid fa-book-open" class="icon-2"></i>
+            <p class="features-card">App Development</p>
+            <p class="features-p">Stay agile, be open to feedback, and continuously iterate to improve your app based on user experiences</p>
+          </div>
+          <div class="card1">
+            <i class="fa-solid fa-tv"></i>
+            <p class="features-card">App Development</p>
+            <p class="features-p">App development is an iterative process, and user feedback is invaluable. </p>
+          </div>
+          <div class="card1">
+            <i class="fa-regular fa-comment" class="icon-2"></i>
+            <p class="features-card">Mobile App</p>
+            <p class="features-p">Stay agile, adapt to feedback, and keep refining your strategies based on the evolving needs of your audience. </p>
+          </div>
+          <div class="card1">
+            <i class="fa-solid fa-wifi" class="icon-2"></i>
+            <p class="features-card">CEO Marketing</p>
+            <p class="features-p">A well-designed app not only looks good but also enhances the overall user experience.</p>
+          </div>
+          <div class="card1">
+            <i class="fa-brands fa-slack" class="icon-2"></i>
+            <p class="features-card">Personal Portfolio</p>
+            <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
+          </div>
         </div>
-        <div class="card">
-          <i class="fa-solid fa-book-open" class="icon-2"></i>
-          <p class="features-card">App Development</p>
-          <p class="features-p">Stay agile, be open to feedback, and continuously iterate to improve your app based on user experiences</p>
-        </div>
-        <div class="card">
-          <i class="fa-solid fa-tv"></i>
-          <p class="features-card">App Development</p>
-          <p class="features-p">App development is an iterative process, and user feedback is invaluable. </p>
-        </div>
+        <div class="siguiente" id="siguiente" onclick="divSlider('1')"><i class="fa-solid fa-chevron-right"></i></div>
       </div>
       
-      <div class="contenedor">
-        <div class="card">
-          <i class="fa-regular fa-comment" class="icon-2"></i>
-          <p class="features-card">Mobile App</p>
-          <p class="features-p">Stay agile, adapt to feedback, and keep refining your strategies based on the evolving needs of your audience. </p>
-        </div>
-        <div class="card">
-          <i class="fa-solid fa-wifi" class="icon-2"></i>
-          <p class="features-card">CEO Marketing</p>
-          <p class="features-p">A well-designed app not only looks good but also enhances the overall user experience.</p>
-        </div>
-        <div class="card">
-          <i class="fa-brands fa-slack" class="icon-2"></i>
-          <p class="features-card">Personal Portfolio</p>
-          <p class="features-p">A good strategy is not static; it evolves as your business and the market evolve. Regularly review and update your strategy to stay relevant and competitive.</p>
-        </div>
-      </div>
-
-      <div class="linea1"></div>
+<div class="linea1"></div>
 
 <!--Portfolio-->
     </section>
@@ -130,10 +131,13 @@
           <p>Designed to make a memorable first impression.</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <a href="https://github.com/Agustinahnatiuk" target="_blank">
+                <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              </a>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
-          
           <button class="btn-sabermas" id="mas" >Saber más</button>
         </div>
         
@@ -148,8 +152,10 @@
           <p>A seamless digital experience.</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
           <button class="btn-sabermas" id="mas">Saber más</button>
         </div>
@@ -165,8 +171,10 @@
           <p>Creativity meets efficiency.</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
           <button class="btn-sabermas" id="mas">Saber más</button>
         </div>
@@ -184,11 +192,14 @@
           <p>Navigate with effortless grace.</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
           <button class="btn-sabermas" id="mas">Saber más</button>
         </div>
+
         <div class="card">
           <img src="Images/imagen6.jpg" class="img6" alt="develop">
           <!--Foto de <a href="https://unsplash.com/es/@johnschno?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">John Schnobrich</a> en <a href="https://unsplash.com/es/fotos/tres-personas-apuntando-a-la-computadora-portatil-plateada-2FPjlAyMQTA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
@@ -200,8 +211,10 @@
           <p>Transform ideas into interactive experiences.</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
           <button class="btn-sabermas" id="mas">Saber más</button>
         </div>
@@ -217,8 +230,10 @@
           <p>Collaborate in real-time</p>
           <span id="additional" class="notshowed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facere, pariatur blanditiis optio explicabo culpa cupiditate voluptate obcaecati a minus cumque nemo, doloribus amet quidem veritatis soluta ab repellat. Aspernatur.
-            <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
-            <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            <div class="buttons-portfolio">
+              <button class="mygithub" id="github"><i class="fa-brands fa-github"></i>My Github</button>
+              <button class="closebtn" id="cerrar" onclick="cerrarTexto()">Cerrar</button>
+            </div>
           </span>
           <button class="btn-sabermas" id="mas">Saber más</button>
         </div>
@@ -415,7 +430,11 @@
             <input class="text" id="fname" name="fname"><br>
             <label class="fname">YOUR MESSAGE:</label><br>
             <input class="text1" id="fname" name="fname"><br>
-            <button class="contact-btn" id="sendMessage">SEND MESSAGE</button>
+            <button type="button" class="contact-btn" onclick="mostrarMensaje()">SEND MESSAGE</button>
+
+            <!-- Elemento para mostrar el mensaje -->
+            <p id="mensaje" class="congrats"></p>
+            
           </form>
         </div>
       </div>

@@ -141,13 +141,15 @@ span {
 }
 
 /*Features*/
-.contenedor {
+.contenedor-slider {
+    position:relative;
     width:90%;
     margin:20px auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction:row;
+    overflow: hidden;
 }
 
 .p-features, .do {
@@ -157,6 +159,34 @@ span {
 .do {
     margin-top: 25px;
     font-size: 30px;
+}
+
+.anterior, .siguiente {
+    font-size: 20px;
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+}
+
+.anterior {
+    left:0;
+}
+
+.siguiente {
+    right:0;
+}
+.slider {
+    display:flex;
+}
+
+.card1{
+    width:240px;
+    background-image: linear-gradient(to bottom right, #ECF0F3, white);
+    border-radius: 10px;
+    margin:20px;
+    padding:30px;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #c0c6ca;
 }
 
 .card{
@@ -248,18 +278,33 @@ span {
     box-shadow:5px 5px 20px #c0c6ca;
 }
 
+.closebtn {
+    padding: 5px 20px;
+}
 
+a {
+    text-decoration: none;
+    margin-left: 25px;
+}
 
+.mygithub {
+    padding: 5px 10px;
+    
+}
 .closebtn, .mygithub {
     background-color:#FF014F;
-    padding: 5px 15px;
     cursor: pointer;
-    display:block;
+    display:flex;
+    align-items: center;
     margin: 0 auto;
     margin-top: 10px;
     border:none;
     border-radius: 10px;
     box-shadow:5px 5px 20px #c0c6ca;
+}
+
+.buttons-portfolio {
+    display:flex;
 }
 
 .notshowed {
@@ -594,6 +639,10 @@ h7 {
 
 .mensajeOculto{
     display: none;
+}
+
+.congrats {
+    font-size: 12px;
 }
 
 
